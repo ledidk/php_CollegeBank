@@ -1,0 +1,224 @@
+               *{
+            margin: 0;
+            padding: 0;
+            font-family: 'poppins', sans-serif;
+            box-sizing: border-box;
+        }
+
+
+            html {
+  font-size: 14px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+
+
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+input{
+    position:relative;
+/*    background-color: gainsboro;*/
+    
+}
+
+input:hover{
+    
+    background-color: gainsboro;
+    
+}
+
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+    width: 250px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-right: 1000px;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+   
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+    input[type=submit]:hover {
+      
+    }
+
+.container {
+    border-radius: 5px;
+    
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+        .row{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+   .display-4{
+        text-align: center;    
+    }
+    
+    
+    
+    
+}
+
+@media screen and (max-width: 300px) {
+    .row{
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+    .display-4{
+        text-align: center;
+        margin-left: 600px;
+    }
+    
+    
+}
+
+#lname{
+    margin-right:1000px;
+    margin-top: 10px;
+}
+
+label{
+    margin-left: 18px;
+}
+
+#lblresult{
+    margin-right: 450px;
+    font-weight: bold;
+}
+
+.result{
+    font-weight: bold;
+}
+
+
+.form2{
+    visibility: hidden;
+}
+
+.lblresult {
+    visibility: hidden;
+
+}
+
+.btn{
+    
+ background-color: #4CAF50; /* Green */
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer; 
+}
+
+#btns{
+   display: inline; 
+}
+.btn:hover{
+   background-color: #008000; 
+}
+.display-4{
+    
+   text-align: center;
+   margin-right: 190px;
+   
+}
+
+.error {
+    color: #FF0000;
+    margin-right: auto;
+    font-size: 12px;
+}
+
+#error{
+    margin-left: 180px;
+    display: inline;
+}
+
